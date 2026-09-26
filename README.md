@@ -4,7 +4,7 @@
 
 This project was developed as part of a team robotics project using Arduino.
 
-The robot autonomously follows a line using photoresistor sensors and motor control. The project also included a catapult mechanism developed by other members of the team.
+The robot autonomously follows a line using photoresistor sensors and motor control. The track included a gap where the robot could temporarily lose the line, requiring a programmed reverse movement to recover the trajectory.
 
 ## My Contribution
 
@@ -13,8 +13,8 @@ My work focused on the robot's programming, sensor integration, and testing:
 - Developed the robot's control logic
 - Programmed the line-following behavior using photoresistor sensors
 - Integrated and processed sensor readings to control the robot's movements
-- Implemented the reverse movement required for a specific section of the track
-- Designed the track section requiring the reverse movement as an adaptation to the close spacing of the soldered sensors
+- Implemented a reverse movement to recover the line when the robot reaches a gap in the track and the sensors temporarily lose the line
+- Adapted the robot's control logic to compensate for the close spacing of the soldered photoresistors
 - Performed multiple tests to find a suitable weight distribution and improve the robot's stability
 - Tested and debugged the robot's behavior on the track
 
@@ -30,7 +30,7 @@ My work focused on the robot's programming, sensor integration, and testing:
 
 The video below shows the robot autonomously following the line on the test track, including the reverse movement.
 
-[🎥 Watch the robot demonstration][(https://youtube.com/shorts/7e94d_t6lQY)]
+[🎥 Watch the robot demonstration](https://youtube.com/shorts/7e94d_t6lQY)
 
 ## Project Context
 
